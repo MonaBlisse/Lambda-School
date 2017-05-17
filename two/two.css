@@ -1,0 +1,40 @@
+body {
+  background: #000;
+  color: transparent;
+}
+
+.container {
+  max-width: 75%;
+  max-height: 100%;
+  margin: 0 auto;
+}
+
+#top-box {
+  height: 70px;
+  background: #ff0000;
+}
+
+#center #left-box {
+  width: 33.3%;
+  height: 500px;
+  background: #1b00f9;
+  float: left;
+}
+#center #middle-box {
+  width: 33.3%;
+  height: 500px;
+  background: #85007D;
+  float: left;
+}
+#center #right-box {
+  width: 33.3%;
+  height: 500px;
+  background: #ff0;
+  float: left;
+}
+
+#bottom-box {
+  height: 70px;
+  clear: both;
+  background: #00811c;
+}
