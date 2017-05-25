@@ -1,0 +1,136 @@
+$hilite: #0085A1
+$grey: #5E5E5E
+$mediumgrey: #333
+$litegrey: #777
+$faintgrey: #eee
+
+body
+	font-family: 'Lora', sans-serif
+	font-size: 1.25em
+
+.header-container,
+h1,h2,h3,h4,h5,h6
+	font-family: 'Open Sans', sans-serif
+	font-weight: 800
+
+#header
+	padding: 20px 0
+	margin-bottom: 50px
+	//background: url('https://blackrockdigital.github.io/startbootstrap-clean-blog/img/post-bg.jpg')
+	background: url('small-img.jpg')
+	background-size: cover
+	background-position: top center
+	.header-container
+		width: 95%
+		margin: 0 auto
+		font-weight: 800
+		a
+			text-decoration: none
+			color: white
+			&:hover
+				color: rgba(255,255,255,.8)
+	.logo
+		float: left
+	.nav
+		list-style-type: none
+		float: right
+		font-size: 12px
+		text-transform: uppercase
+		li
+			display: inline-block
+			margin: 0 0 0 30px
+#banner
+	padding: 100px 0
+	color: white
+	.banner-container
+		width: 55%
+		margin: 0 auto
+		h1
+			font-size: 2.8em
+			line-height: 1.1em
+			margin-bottom: 10px
+		h2
+			font-size: 1.5em
+			line-height: 1em
+			font-weight: 600
+			margin: 20px 0 30px 0
+		.post-meta
+			font-size: 1.1em
+			font-weight: 300
+			font-family: 'Lora', 'Times New Roman', sans-serif
+			font-style: italic
+			a
+				text-decoration: none
+				color: white
+				&:hover
+					text-decoration: underline
+
+.post
+	::selection
+		color: white
+		background: $hilite
+	padding: 10px 0
+	.post-container
+		width: 60%
+		margin: 0 auto
+		font-size: 20px
+		font-weight: 400
+		font-family: 'Lora', sans-serif
+		p
+			color: $mediumgrey
+			margin: 30px 0
+			line-height: 1.3em
+		blockquote
+			width: 100%
+			margin: 0 auto
+			color: $litegrey
+			font-size: 1.1em
+			font-style: italic
+			padding: 10px 20px
+			margin: 0 0 20px 0
+			border-left: 5px solid $faintgrey
+		.placehold-txt
+			a
+				color: $mediumgrey
+				&:hover
+					color: $hilite
+		.post-img
+			text-align: center
+			img
+				width: 100%
+			.caption
+				font-size: .9em
+				color: $litegrey
+				font-style: italic
+			
+		
+#footer
+	padding: 60px 0
+	text-align: center
+	border-top: 1px solid $faintgrey
+	.container
+		width: 80%
+		margin: 0 auto
+		.socialmedia
+			font-size: 1.3em
+			a
+				color: white
+				padding: 5px
+				margin: 0 5px
+				background: $mediumgrey
+				border-radius: 100%
+				&:hover
+					background: $hilite
+				.fa-twitter
+					padding-left: 3px
+					padding-right: 3px
+				.fa-facebook-f
+					padding-left: 8px
+					padding-right: 8px
+				.fa-github
+					padding-left: 5px
+					padding-right: 5px
+		.copyright
+			font-size: .8em
+			margin: 40px 0 0 0
+			color: $litegrey
